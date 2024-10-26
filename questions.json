@@ -1,0 +1,44 @@
+{
+    "questions": [
+      {
+        "id": "data_volume",
+        "question": "Did you process the personal data of:\na. more than 1,000 (one thousand) Data Subjects in the last 6 months; or\nb. More than 2,000 Data Subjects in the last 12 months?",
+        "options": ["Yes", "No", "Unsure"],
+        "category": "Data Processing Volume",
+        "risk_level": "high",
+        "guidance": "This question determines if your organization falls under mandatory NDPA compliance requirements based on data processing volume."
+      },
+      {
+        "id": "management_awareness",
+        "question": "Is your top-management aware of the Nigeria Data Protection Act (NDPA) and the potential implication on your organisation?",
+        "options": ["Yes", "Partially", "No"],
+        "category": "Management Oversight",
+        "risk_level": "high",
+        "guidance": "Management awareness and commitment is crucial for effective NDPA compliance implementation."
+      },
+      {
+        "id": "security_standards",
+        "question": "Have you implemented any information security standard in your organisation before? If YES, specify.",
+        "options": ["Yes - ISO 27001", "Yes - Other Standard", "No", "In Progress"],
+        "category": "Security Standards",
+        "risk_level": "medium",
+        "guidance": "Previous implementation of security standards can facilitate NDPA compliance."
+      },
+      {
+        "id": "breach_management",
+        "question": "Do you have a documented data breach incident management procedure?",
+        "options": ["Yes", "No", "In Development"],
+        "category": "Incident Management",
+        "risk_level": "high",
+        "guidance": "A documented breach management procedure is required under NDPA."
+      },
+      {
+        "id": "digital_processing",
+        "question": "Do you collect and process personal information through digital mediums?",
+        "options": ["Yes", "No", "Partially"],
+        "category": "Data Collection",
+        "risk_level": "medium",
+        "guidance": "Digital processing of personal data requires specific security measures under NDPA."
+      }
+    ]
+  }
